@@ -2,7 +2,7 @@ import { MongoMemoryServer } from 'mongodb-memory-server';
 import mongoose from 'mongoose';
 import { app } from '../app';
 
-jest.setTimeout(30000);
+jest.setTimeout(60000);
 let mongo: any;
 
 // Include fake file to tests
