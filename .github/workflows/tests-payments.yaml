@@ -1,6 +1,8 @@
 name: tests-paymetns
 on:
-  pull_request
+    pull_request:
+    paths:
+      - 'payments/**'
   
 jobs:
   build:
